@@ -17,4 +17,4 @@ with open(sys.argv[1], 'r') as f:
         if foundChar:
             outputFile.write(char)
         if totalCharacters % 1000000 == 0:
-            print('Next million done! Total: ' + totalCharacters)
+            print('Next million done! Total: ' + str(totalCharacters))
